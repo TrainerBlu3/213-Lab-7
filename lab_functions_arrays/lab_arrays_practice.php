@@ -22,4 +22,4 @@ array_merge($numsPart3, $numsMerge);
 $numsPart4 = array(90, 80, 90, 70, 80);
 array_count_values($numsPart4);
 
-
+?>
