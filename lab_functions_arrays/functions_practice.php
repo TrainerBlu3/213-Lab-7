@@ -1,12 +1,13 @@
+<?php
 function greet(){
-	echo "Hello, World!";
+	echo "Hello, World!<br>";
 }
 
 greet();
 greet();
 
 function greetName($name){
-	echo "Hello, $name!";
+	echo "Hello, $name!<br>";
 }
 
 greetName("Alice");
@@ -16,16 +17,16 @@ function add($a, $b){
 	return $a + $b;
 }
 
-echo add(3,5);
-echo add(10,20);
+echo add(3,5) . "<br>";
+echo add(10,20) . "<br>";
 
 function convertCtoF($c){
 	return ($c * 1.8) + 32;
 }
 
-echo convertCtoF(0);
-echo convertCtoF(30);
-echo convertCtoF(100);
+echo convertCtoF(0) . "<br>";
+echo convertCtoF(30) . "<br>";
+echo convertCtoF(100) . "<br>";
 
 function safeDivide($a, $b){
 	if($b === 0){
@@ -36,5 +37,7 @@ function safeDivide($a, $b){
 	}
 }
 
-echo safeDivide(10,2);
+echo safeDivide(10,2) . "<br>";
 safeDivide(10,0);
+
+?>
